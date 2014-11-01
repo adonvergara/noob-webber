@@ -7,15 +7,15 @@
 <body>
 <header>
  <strong>Noob Web Designs</strong>
- <nav>
-   <ul>
- 	<li><a href="{{site.baseurl}}/index.html">Home</a></li>	
- 	<li><a href="{{site.baseurl}}/news.html">News</a></li>
-   </ul>
- </nav>
+ {% include nav.html %}
 </header>
 
 {{content}}
 
+
+<footer>
+<p>This is the footer</p>
+{% include nav.html %}
+</footer>
 </body>
 </html>
