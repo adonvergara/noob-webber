@@ -1,0 +1,3 @@
+markdown: kramdown
+baseurl: /noob-webber
+exclude: ["README.md"]
